@@ -49,7 +49,7 @@ class Program
         int year = random.Next(1970, 2025);
 
         // Случайное число
-        int intd = random.Next(10, 90);
+        int intd = random.Next(10, 99);
         // string intd = bands[random.Next(bands.Count)];
 
         // Список специальных символов
