@@ -28,7 +28,7 @@ class Program
         // Список штатов
         List<string> usStates = new List<string> { 
             "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho",  "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
-            "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota",  "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada",  "New Hampshire", "New Jersey", "New Mexico", "New York", 
+            "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota",  "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada",  "NewHampshire", "Jersey", "Mexico", "NewYork", 
             "Carolina", "Dakota", "Ohio", "Oklahoma", "Oregon",  "Pennsylvania", "Carolina", "Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "Virginia", "Wisconsin", "Wyoming" 
             };
 
@@ -47,6 +47,10 @@ class Program
 
         // Случайный год от 1980 до 2024
         int year = random.Next(1970, 2025);
+
+        // Случайное число
+        int intd = random.Next(10, 90);
+        // string intd = bands[random.Next(bands.Count)];
 
         // Список специальных символов
         string specialSymbols = "!@#$%^&";
